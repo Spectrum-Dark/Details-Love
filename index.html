@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./main.js"></script>
+    <title>Project Edit</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="photo"></div>
+        <div class="controllers">
+            <div class="title">
+                <p class="title-1">TE AMO</p>
+                <p class="title-2">Rio Roma</p>
+            </div>
+            <div class="icons">
+                <button class="buttons list"></button>
+                <button class="buttons add"></button>
+                <button class="buttons download"></button>
+                <button class="buttons like"></button>
+            </div>
+
+            <div class="reproductor">
+                <div class="progress-bar-container">
+                    <div class="progress-bar">
+                        <span id="progress"></span>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button class="play-btn" onclick="togglePlayPause()">
+                        <img class="play-icon" src="play.png" alt="Play">
+                        <img class="pause-icon" src="pause.png" alt="Pause">
+                    </button>
+                </div>
+                <audio id="audioPlayer" src="./PorTeAmo.mp3"></audio>
+
+                <button class="buttons repeat"></button>
+                <button class="buttons back"></button>
+                <button class="buttons next"></button>
+                <button class="buttons random"></button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
